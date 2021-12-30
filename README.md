@@ -18,3 +18,11 @@ $ nodenv local 16.1.0
 ```
 $ npm install --local yarn
 ```
+
+## 起動方法
+```sh
+# パッケージのインストール
+$ yarn
+# サーバの起動
+$ yarn start
+```
