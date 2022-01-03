@@ -24,4 +24,4 @@ jobs:
       # S3へアップロード
       - name: Upload to S3
         run: |
-          aws s3 sync public s3://${{ secrets.UPLOAD_S3_BUCKET }}
+          aws s3 sync public s3://${{ secrets.UPLOAD_S3_BUCKET }} --delete
